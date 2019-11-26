@@ -1,0 +1,127 @@
+/* Big tablet to 1200px : smaller than the 1140px row*/
+@media only screen and (max-width: 1200px) {
+    .head-textbox {
+        width:100%;
+        padding:0 2%;      
+}
+    .row{padding: 0 2%;}
+}
+
+/* Small tablets to Big tablet: from 768 to 1023px*/
+@media only screen and (max-width: 1023px) {
+    body {font-size: 18px;}
+    section {padding:60px 0;}
+    
+    .main-nav {display:none;}
+    
+    h1 {font-size:220%;}
+    
+    h2 {font-size: 180%;}
+    
+    .long-copy {
+        width: 80%;
+        margin-left: 10%;
+    }
+    
+    .about-marq .long-copy {
+        margin-bottom: 40px;
+        line-height: 35px;
+    }
+    
+    .marq-img {
+        width: 60%;
+        border-radius: 30%; 
+    }
+    
+    .marq-history {padding-left: 30px;}
+    .marq-history li{line-height: 30px;}
+    
+    .plan-box {
+        width: 100%;
+        margin-left: 0%;
+    }
+    
+    .plan-price {font-size:250%;}
+    
+    
+    .icon-small {
+    width: 20px;
+    font-size: 130%;
+    margin-right:0;
+}
+     cite {font-size:80%;}  
+    
+}
+
+/* Small phones to Small tablet: from 481 to 767px*/
+@media only screen and (max-width: 767px) {
+    body {font-size: 18px;}
+    section {padding: 30px 0;}
+    
+    .logo {width:30%;}
+    
+    .row,
+    .head-textbox {padding:0 4%;}
+    
+    h1 {font-size:180%;}
+    h2 {font-size: 160%;}
+    h3 {font-size: 140%;;
+    }
+
+    .long-copy {
+        width: 90%;
+        margin-left: 5%;
+    }
+    
+    .marq-img {
+        width: 30%;
+        border-radius: 30%; 
+    }
+
+    .image-box {
+        margin-bottom: 20px;
+    }
+    
+    .image-box .social-links li {
+        font-size: 17px;
+        margin:20px 0;
+        margin-right: 20px;
+    }
+        
+    .icon-small {
+        width: 50px;
+        font-size: 140%;
+        margin-right:10;
+    }
+    
+    .plan-box div:first-child {padding-left: 30px;}
+    
+    .plan-price {font-size:230%;}
+    
+}
+
+
+/* Small phones: from 0 to 480px*/
+@media only screen and (max-width: 480px) {
+    body {font-size: 14px;}
+    section {padding: 25px 0;} 
+        
+    .logo {width:40%;}
+    
+    h1 {font-size:160%;}
+    h2 {font-size: 150%;}
+    
+    .icon-big {
+        font-size: 250%;
+        margin-bottom: 10px;
+    }
+    
+    .icon-small {margin-top: 3px;}
+    
+    .btn-full, btn-ghost {
+        display:block;
+        margin-bottom: 10px;
+    }
+    
+
+}
