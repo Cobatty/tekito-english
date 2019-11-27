@@ -23,6 +23,12 @@
         margin-left: 10%;
     }
     
+    .box p {
+    font-size: 100%;
+    line-height: 160%;
+    }
+
+    
     .about-marq .long-copy {
         margin-bottom: 40px;
         line-height: 35px;
@@ -95,15 +101,21 @@
     }
     
     .plan-box div:first-child {padding-left: 30px;}
+
+    .plan-box div:last-child {margin-bottom: 10px;}
+
     
-    .plan-price {font-size:230%;}
+    .plan-price {font-weight:500;}
+    
+    .plan-box li {font-size: 130%;}
     
 }
 
 
+
 /* Small phones: from 0 to 480px*/
 @media only screen and (max-width: 480px) {
-    body {font-size: 14px;}
+    body {font-size: 18px;}
     section {padding: 25px 0;} 
         
     .logo {width:40%;}
@@ -124,4 +136,5 @@
     }
     
 
+    
 }
