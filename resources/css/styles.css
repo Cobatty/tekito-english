@@ -295,6 +295,10 @@ header {
     color: #fff;
 }
 
+.sticky .mobile-nav-icon i {
+    color: #555;
+}
+
 
 /*----------------------------------------------*/
 /* FEATURES */
