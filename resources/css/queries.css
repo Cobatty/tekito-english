@@ -66,6 +66,11 @@
 
 /* Small phones to Small tablet: from 481 to 767px*/
 @media only screen and (max-width: 767px) {
+
+    header {height: 140vh;}
+    .head-textbox {top: 70%;}
+
+    
     body {font-size: 18px;}
     section {padding: 30px 0;}
     
@@ -147,15 +152,11 @@
     h1 {font-size:160%;}
     h2 {font-size: 150%;}
     
-    header {
-    background-size:cover;
-    background-position:center;
-    height: 140vh;
-    }
+    header {height: 140vh;}
     
     .head-textbox {top: 70%;}
     
-    .logo {width:170px;}
+    .logo {width:150px;}
     
     
     .icon-big {
