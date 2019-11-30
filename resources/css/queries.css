@@ -12,8 +12,6 @@
     body {font-size: 18px;}
     section {padding:60px 0;}
     
-    .main-nav {display:none;}
-    
     h1 {font-size:220%;}
     
     h2 {font-size: 180%;}
@@ -22,6 +20,13 @@
         width: 80%;
         margin-left: 10%;
     }
+    
+    .main-nav{font-size: 16px;}
+            
+    
+    .main-nav ul{padding-left: 0;}
+    
+    .logo {width:155px;}
     
     .box p {
     font-size: 100%;
@@ -64,7 +69,6 @@
     body {font-size: 18px;}
     section {padding: 30px 0;}
     
-    .logo {width:30%;}
     
     .row,
     .head-textbox {padding:0 4%;}
@@ -73,6 +77,28 @@
     h2 {font-size: 160%;}
     h3 {font-size: 140%;;
     }
+    
+    .main-nav{
+        display:none;
+        float:left;
+        margin-top: 25px;
+    }
+    
+    .main-nav li{
+        display: block;
+        padding-bottom: 10px;
+    }
+    
+    .mobile-nav-icon {
+        display: inline-block;
+        float: right;
+    }
+    
+    .sticky .ion-navicon-round {
+        color: #555;
+    }
+    
+    
 
     .long-copy {
         width: 90%;
@@ -118,7 +144,7 @@
     body {font-size: 18px;}
     section {padding: 25px 0;} 
         
-    .logo {width:40%;}
+    .logo {width:170px;}
     
     h1 {font-size:160%;}
     h2 {font-size: 150%;}
