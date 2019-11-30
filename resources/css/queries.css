@@ -67,10 +67,9 @@
 /* Small phones to Small tablet: from 481 to 767px*/
 @media only screen and (max-width: 767px) {
 
-    header {height: 140vh;}
-    .head-textbox {top: 70%;}
+    header {height: 130vh;}
+    .head-textbox {top: 80%;}
 
-    
     body {font-size: 18px;}
     section {padding: 30px 0;}
     
@@ -86,7 +85,7 @@
     .main-nav{
         display:none;
         float:left;
-        margin-top: 25px;
+        margin-top: 15px;
     }
     
     .main-nav li{
@@ -151,10 +150,6 @@
     
     h1 {font-size:160%;}
     h2 {font-size: 150%;}
-    
-    header {height: 140vh;}
-    
-    .head-textbox {top: 70%;}
     
     .logo {width:150px;}
     
